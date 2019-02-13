@@ -6,6 +6,7 @@
     "react": "^16.8.1",
     "react-3d-carousels": "^1.0.2",
     "react-dom": "^16.8.1",
+    "react-motion": "^0.5.2",
     "react-scripts": "2.1.5"
   },
   "scripts": {

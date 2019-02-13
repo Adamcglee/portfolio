@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Carousel3d from "./components/carousel"
+import Carousel3d from "./components/carousel/carousel"
 
 class App extends Component {
   render() {
