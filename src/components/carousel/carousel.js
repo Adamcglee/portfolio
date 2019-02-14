@@ -18,7 +18,7 @@ class Carousel3d extends React.Component {
     return (
       <div
         style={{
-          height: "80vh",
+          position: "static",
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-evenly",
@@ -28,7 +28,8 @@ class Carousel3d extends React.Component {
         <h1
           style={{
             color: "thistle",
-            fontSize: "75px",
+            margin: "20px auto",
+            fontSize: "65px",
             textShadow:
               "-1px -1px 0 #000,	1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000"
           }}

@@ -16,7 +16,7 @@ class ProjectCard extends Component {
         ref={r => (this.flippy = r)} // to use toggle method like this.flippy.toggle()
         // if you pass isFlipped prop component will be controlled component.
         // and other props, which will go to div
-        style={{ width: "200px", height: "250px", border: "3px solid gray" }} /// these are optional style, it is not necessary
+        style={{ width: "200px", height: "250px"}} /// these are optional style, it is not necessary
       >
         <FrontSide style={{ backgroundColor: "#41669d" }}>
           <a href={this.props.url}>
@@ -24,9 +24,8 @@ class ProjectCard extends Component {
               {this.props.title}
             </h4>
           </a>
-          <img src={require("" + this.props.imageLoc)} alt="project thumbnail" style={{ maxwidth: "150px", maxHeight: "100px"}}/>
           <p style={{ fontSize: "14px", margin: " 10px auto"}}>{this.props.description}</p>
-          <p style={{ fontSize: "14px", verticalAlign: "bottom"}}>(more)</p>
+          <p style={{ fontSize: "14px", verticalAlign: "bottom"}}>(flip for more info)</p>
         </FrontSide>
         <BackSide style={{ backgroundColor: "#175852" }}>
           Tech Stack:
