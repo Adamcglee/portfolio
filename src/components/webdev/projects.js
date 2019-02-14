@@ -7,7 +7,11 @@ class Projects extends Component {
     super(props);
     this.state = {};
   }
+
+  
+
   render() {
+    const baseUrl = "../images/";
     return (
       <div className="projectsContainer">
         <ProjectCard
@@ -15,6 +19,7 @@ class Projects extends Component {
           techstack={["React", "Node.js", "SQL/Postgres"]}
           url="https://ontherecord.us"
           description="A music review site where people can come together and give ratings and reviews on their favorite or least favorite albums and tracks."
+          imageLoc="../images/"
         />
         <ProjectCard
           title="Lambda-MUD"

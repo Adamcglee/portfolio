@@ -24,6 +24,7 @@ class ProjectCard extends Component {
               {this.props.title}
             </h4>
           </a>
+          <img src={require("" + this.props.imageLoc)} alt="project thumbnail" style={{ maxwidth: "150px", maxHeight: "100px"}}/>
           <p style={{ fontSize: "14px", margin: " 10px auto"}}>{this.props.description}</p>
           <p style={{ fontSize: "14px", verticalAlign: "bottom"}}>(more)</p>
         </FrontSide>
