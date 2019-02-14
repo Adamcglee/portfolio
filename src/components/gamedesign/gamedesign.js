@@ -6,7 +6,7 @@ const GameDesign = props => {
     <div className="gamedesignContainer"
       style={{ width: props.width, height: props.height }}
     >
-    <h1 style={{color: "white"}}>Game Designer</h1>
+    <h1 style={{color: "aliceblue"}}>Game Designer</h1>
       {/* <div>Bio</div>
       <div>Companies</div>
       <div>Launched Products</div>

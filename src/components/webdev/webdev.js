@@ -32,7 +32,7 @@ class WebDev extends React.Component {
           height: this.props.height
         }}
       >
-        <h2 className="title">Full Stack Web Developer</h2>
+        <h1 className="title">Full Stack Web Developer</h1>
         <div>
           <p className="bio">
             {" "}
@@ -63,7 +63,7 @@ class WebDev extends React.Component {
           </p>
         </div>
         <div>
-          <h2 className="projectsTitle">My Projects</h2>
+          <h2 className="title">My Projects</h2>
           <Projects />
         </div>
 

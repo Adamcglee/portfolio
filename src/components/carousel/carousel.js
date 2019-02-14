@@ -25,17 +25,6 @@ class Carousel3d extends React.Component {
           alignItems: "center"
         }}
       >
-        <h1
-          style={{
-            color: "thistle",
-            margin: "20px auto",
-            fontSize: "65px",
-            textShadow:
-              "-1px -1px 0 #000,	1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000"
-          }}
-        >
-          Who is Adam Lee?
-        </h1>
         <div
           style={{
             width: this.state.width,

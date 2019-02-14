@@ -6,7 +6,7 @@ const Photography = props => {
     <div className="photographyContainer"
       style={{ width: props.width, height: props.height }}
     >
-    <h1 style={{color: "white"}}>Photographer</h1>
+    <h1 style={{color: "aliceblue"}}>Photographer</h1>
       {/* <div>Bio</div>
       <div>Gallery</div>
       <div>Gear</div> */}

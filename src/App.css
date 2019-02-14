@@ -31,3 +31,8 @@
     transform: rotate(360deg);
   }
 }
+
+.appIntro {
+  background: darkslategrey;
+  opacity: .8;
+}

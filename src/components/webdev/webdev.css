@@ -3,7 +3,7 @@
 }
 
 .title {
-  color: white;
+  color: aliceblue;
   padding: 15px 0 0;
 }
 
@@ -16,7 +16,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;    
+    padding: 0 15px;
 }
 
 .contactContainer {
@@ -34,7 +35,7 @@
 .icon {
     max-width: 25px;
     min-width: 20px;
-    margin: 0 5px
+    margin: 0 2px
 }
 
 .contactFlex {
@@ -49,6 +50,6 @@
 }
 
 .iconinfo {
-    margin: 0 5px;
+    margin: 0 2px;
     font-size: 14px;
 }
