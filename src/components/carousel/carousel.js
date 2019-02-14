@@ -27,7 +27,7 @@ class Carousel3d extends React.Component {
       >
         <h1
           style={{
-            color: "lightgray",
+            color: "thistle",
             fontSize: "75px",
             textShadow:
               "-1px -1px 0 #000,	1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000"
