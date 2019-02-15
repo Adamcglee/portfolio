@@ -48,7 +48,7 @@
 }
 
 .close-modal-btn:hover {
-    color: black;
+    color: #1F2833;
 }
 
 .btn-cancel, .btn-continue {
@@ -85,7 +85,7 @@
 }
 
 p {
-    font-family: Arial, Helvetica, sans-serif;    
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
     margin: 0;
 }

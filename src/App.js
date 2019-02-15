@@ -22,7 +22,7 @@ class App extends Component {
               margin: "0 auto"
             }}
           >
-            Swipe below to find out...
+            Swipe below to see my many sides...
           </h4>
         </div>
 

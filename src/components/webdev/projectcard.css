@@ -1,0 +1,23 @@
+a {
+  text-decoration: none;
+  color: #1f2833;
+}
+a h4 {
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.cardtext {
+    margin: 15px;
+    text-align: left;
+}
+
+.techstacklist {
+    text-align: left;
+    font-size: 14px;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+.techstacklist li {
+    display: inline-block;
+}

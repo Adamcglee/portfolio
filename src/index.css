@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lora', serif;
+  font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;  
   background-image: url("../src/components/images/portfolioBG.jpeg");
@@ -9,7 +9,8 @@ body {
 }
 
 code {
-  font-family: 'Gentium Book Basic', serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #1F2833;
 }
  
  h1, h2, h3, h4, h5, h6 {

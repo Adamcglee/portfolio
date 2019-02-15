@@ -1,9 +1,9 @@
 .webdevContainer {
-    background:  #00aba9;
+    background:  #45A29E;
 }
 
 .title {
-  color: aliceblue;
+  color: #66FCF1;
   padding: 15px 0 0;
 }
 
@@ -18,6 +18,7 @@
     justify-content: space-between;
     align-items: center;    
     padding: 0 15px;
+    height: 55px;
 }
 
 .contactContainer {
@@ -29,7 +30,7 @@
 
 .contactContainer a{
     text-decoration: none;
-    color: black;
+    color: #1F2833;
 }
 
 .icon {
