@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://adamcglee.github.io",
   "dependencies": {
     "react": "^16.8.1",
     "react-3d-carousels": "^1.0.2",
