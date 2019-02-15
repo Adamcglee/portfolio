@@ -101,6 +101,17 @@ class WebDev extends React.Component {
                 <p className="iconinfo">adamcglee</p>
               </div>
             </a>
+            <a href="https://resume.creddle.io/resume/cvxi7roju17">
+              <div className="contactFlex">
+                <img
+                  src={require("../images/icons8-resume-40.png")}
+                  alt="resume icon"
+                  target="_blank"
+                  className="icon"
+                />
+                <p className="iconinfo">Resume</p>
+              </div>
+            </a>
             <div className="open-modal-btn" onClick={this.openModalHandler}>
               <div className="contactFlex">
                 <img

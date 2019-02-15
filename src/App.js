@@ -16,14 +16,21 @@ class App extends Component {
           >
             Who is Adam Lee?
           </h1>
-          <h4
-            style={{
-              color: "aliceblue",
-              margin: "0 auto"
-            }}
-          >
-            Swipe below to see my many sides...
-          </h4>
+          <div className="swipeinstuctions">
+            <div className="swipeicon">
+              <img src={require("./components/images/rotateicon.png")} />
+            </div>
+            <h3
+              style={{
+                color: "aliceblue"
+              }}
+            >
+              Swipe below to see my many sides...
+            </h3>
+            <div className="swipeicon">
+              <img src={require("./components/images/rotateicon.png")} />
+            </div>
+          </div>
         </div>
 
         <Carousel3d />
