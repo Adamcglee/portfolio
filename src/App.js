@@ -10,7 +10,7 @@ class App extends Component {
           <h1
             style={{
               color: "aliceblue",
-              margin: "20px auto",
+              margin: "0 auto",
               fontSize: "65px"
             }}
           >
@@ -18,7 +18,7 @@ class App extends Component {
           </h1>
           <div className="swipeinstuctions">
             <div className="swipeicon">
-              <img src={require("./components/images/rotateicon.png")} />
+              <img src={require("./components/images/rotateicon.png")} alt="rotation icon"/>
             </div>
             <h3
               style={{
@@ -28,7 +28,7 @@ class App extends Component {
               Swipe below to see my many sides...
             </h3>
             <div className="swipeicon">
-              <img src={require("./components/images/rotateicon.png")} />
+              <img src={require("./components/images/rotateicon.png")} alt="rotation icon"/>
             </div>
           </div>
         </div>

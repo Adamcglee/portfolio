@@ -27,15 +27,9 @@ class ProjectCard extends Component {
             justifyContent: "space-between"
           }}
         >
-          <a
-            href={this.props.url}
-            style={{ textDecoration: "none", color: "#1f2833" }}
-            target="_blank"
-          >
-            <h4 style={{ margin: "0 auto", fontWeight: "bold" }}>
-              "{this.props.title}"
-            </h4>
-          </a>
+          <h4 style={{ margin: "0 auto", fontWeight: "bold" }}>
+            "{this.props.title}"
+          </h4>
           <p style={{ textAlign: "left", margin: "0 15px" }}>
             {this.props.description}
           </p>
@@ -67,11 +61,7 @@ class ProjectCard extends Component {
               ))}
             </ul>
           </div>
-          <a
-            href={this.props.url}
-            style={{ color: "#1f2833" }}
-            target="_blank"
-          >
+          <a href={this.props.url} style={{ color: "#1f2833" }} target="_blank" rel="noopener noreferrer">
             <h4 style={{ margin: "0 auto", fontWeight: "bold" }}>
               Link to Project
             </h4>
