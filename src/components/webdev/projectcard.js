@@ -19,19 +19,19 @@ class ProjectCard extends Component {
         style={{ width: "200px", height: "250px"}} /// these are optional style, it is not necessary
       >
         <FrontSide style={{ backgroundColor: "#C5C6C7", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-between"}}>
-          <a href={this.props.url}>
+          <a href={this.props.url} style={{textDecoration: "none", color: "#1f2833"}}>
             <h4 style={{ margin: "0 auto", fontWeight: "bold" }}>
               {this.props.title}
             </h4>
           </a>
-          <p className="cardtext">{this.props.description}</p>
+          <p style={{ textAlign: "left", margin: "0 15px"}}>{this.props.description}</p>
           <p>(over)</p>
         </FrontSide>
         <BackSide style={{ backgroundColor: "#66FCF1", margin: "auto 0" }}>
           <h4><strong>Tech Stack:</strong></h4>
           <ul className="techstacklist">
             {this.props.techstack.map(tech => (
-              <li >{tech}</li>
+              <li style={{ textAlign: "left"}}>{tech}</li>
             ))}
           </ul>
         </BackSide>

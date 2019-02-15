@@ -101,15 +101,15 @@ class WebDev extends React.Component {
                 <p className="iconinfo">adamcglee</p>
               </div>
             </a>
-          </div>
-          <div className="open-modal-btn" onClick={this.openModalHandler}>
-            <div className="contactFlex">
-              <img
-                src={require("../images/skillsicon.svg")}
-                alt="skills icon"
-                className="icon"
-              />
-              <p className="iconinfo">Proficiencies</p>
+            <div className="open-modal-btn" onClick={this.openModalHandler}>
+              <div className="contactFlex">
+                <img
+                  src={require("../images/skillsicon.svg")}
+                  alt="skills icon"
+                  className="icon"
+                />
+                <p className="iconinfo">Proficiencies</p>
+              </div>
             </div>
           </div>
         </div>
