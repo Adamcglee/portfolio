@@ -5,7 +5,7 @@ class NewCarousel extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      cellCount: 9,
+      cellCount: 4,
       selectedIndex: 0,
       angle: 0
     };
@@ -44,11 +44,6 @@ class NewCarousel extends Component {
             <div className="carousel__cell">2</div>
             <div className="carousel__cell">3</div>
             <div className="carousel__cell">4</div>
-            <div className="carousel__cell">5</div>
-            <div className="carousel__cell">6</div>
-            <div className="carousel__cell">7</div>
-            <div className="carousel__cell">8</div>
-            <div className="carousel__cell">9</div>
           </div>
         </div>
         <p style={{ textAlign: "center" }}>
