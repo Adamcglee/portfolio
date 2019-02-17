@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Carousel3d from "./components/carousel/carousel";
+import NewCarousel from "./components/carousel/newcarousel";;
 
 class App extends Component {
   render() {
@@ -32,8 +33,8 @@ class App extends Component {
             </div>
           </div>
         </div>
-
-        <Carousel3d />
+        <NewCarousel />
+        {/* <Carousel3d /> */}
       </div>
     );
   }
