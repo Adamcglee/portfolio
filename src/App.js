@@ -24,19 +24,19 @@ class App extends Component {
                   <p className="iconinfo">adamcglee@gmail.com</p>
                 </div>
               </a>
-              <a href="https://linkedin.com/in/adamcglee">
+              <a href="https://linkedin.com/in/adamcglee" target="_blank">
                 <div className="contactFlex">
                   <i class="fab fa-linkedin" />
                   <p className="iconinfo">adamcglee</p>
                 </div>
               </a>
-              <a href="https://github.com/Adamcglee">
+              <a href="https://github.com/Adamcglee" target="_blank">
                 <div className="contactFlex">
                   <i class="fab fa-github" />
                   <p className="iconinfo">adamcglee</p>
                 </div>
               </a>
-              <a href="https://resume.creddle.io/resume/cvxi7roju17">
+              <a href="https://resume.creddle.io/resume/cvxi7roju17" target="_blank">
                 <div className="contactFlex">
                   <i class="far fa-file" />
                   <p className="iconinfo">Resume</p>
