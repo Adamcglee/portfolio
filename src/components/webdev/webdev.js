@@ -36,101 +36,111 @@ class WebDev extends React.Component {
         <div>
           <p className="bio">
             {" "}
-            Who am I? I am a recent graduate of Lambda School's Full Stack Web
-            Development program. The 8 month program was broken up into 4
-            sections: Frontend, Backend, Computer Science, and Labs. The
-            frontend curriculum taught me HTML, CSS, Javascript, and React over
-            the span of 10 weeks.
-            <br />
-            <br />
-            In the backend section, which lasted 5 weeks, we learned Node.js,
-            Express, SQLite3 and Postgres, built RESTful APIs, and learned about
-            user authentication.
-            <br />
-            <br />
-            For the next 10 weeks was Computer science where we were learned
-            about CS fundamentals like Python, Django, data structures,
-            algorithms, graphs, C, hash tables, theory of computation, computer
-            architecture, and web servers.
-            <br />
-            <br />
-            The final part of the Lambda School program was labs, where we
-            worked in groups of 4-5 students to create a professional level app
-            from wireframes to deployemtn in 5 weeks. We were soley responsible
-            for developement, design, and project management of the project.
-            Please have a look at my projects below and feel free to reach out
-            to me. Thank you for stopping by!
+            I am a recent graduate of Lambda School's Full Stack Web Development
+            program. The 8 month program was broken up into 3 sections:
+            Frontend, Backend, and Computer Science. Labs was the last 5 weeks
+            where we on a project in a small group from spec to launch. Please
+            have a look at my projects below and feel free to reach out to me.
+            Thank you for stopping by!
           </p>
+          <br />
+          <div className="breakdown">
+            <div>
+              <p>
+                <strong>Front-End: </strong>HTML, CSS, Javascript, React
+              </p>
+            </div>
+            <div>
+              <p>
+                <strong>Back-End: </strong>Node.js, Express, SQLite3, Postgres,
+                Building RESTful APIs, User Authentication
+              </p>
+            </div>
+            <div>
+              <p>
+                <strong>Computer Science: </strong>Data Structures, Algorithms,
+                Graphs, Theory of Computation, Computer Architecture, Web
+                Servers
+              </p>
+            </div>
+          </div>
         </div>
         <div>
           <h2 className="title">My Projects</h2>
           <Projects />
         </div>
-
-        <div className="containerFooter">
-          <div className="contactContainer">
-            <a href="mailto:adamcglee@gmail.com">
-              <div className="contactFlex">
-                <img
-                  src={require("../images/Mail-icon.png")}
-                  alt="email icon"
-                  className="icon"
-                />
-                <p className="iconinfo">adamcglee@gmail.com</p>
-              </div>
-            </a>
-            <a href="https://linkedin.com/in/adamcglee">
-              <div className="contactFlex">
-                <img
-                  src={require("../images/linkedinicon.svg")}
-                  alt="linkedin icon"
-                  target="_blank"
-                  className="icon"
-                />
-                <p className="iconinfo">adamcglee</p>
-              </div>
-            </a>
-            <a href="https://github.com/Adamcglee">
-              <div className="contactFlex">
-                <img
-                  src={require("../images/icons8-github.svg")}
-                  alt="github icon"
-                  target="_blank"
-                  className="icon"
-                />
-                <p className="iconinfo">adamcglee</p>
-              </div>
-            </a>
-            <a href="https://resume.creddle.io/resume/cvxi7roju17">
-              <div className="contactFlex">
-                <img
-                  src={require("../images/icons8-resume-40.png")}
-                  alt="resume icon"
-                  target="_blank"
-                  className="icon"
-                />
-                <p className="iconinfo">Resume</p>
-              </div>
-            </a>
-            <div className="open-modal-btn" onClick={this.openModalHandler}>
-              <div className="contactFlex">
-                <img
-                  src={require("../images/skillsicon.svg")}
-                  alt="skills icon"
-                  className="icon"
-                />
-                <p className="iconinfo">Proficiencies</p>
-              </div>
-            </div>
+        <div className="proficiencies">
+          <div>
+            <img
+              src={require("../images/icons8-html-5.svg")}
+              alt="html5 icon"
+            />
+            <p>HTML</p>
+          </div>
+          <div>
+            <img src={require("../images/icons8-css3.svg")} alt="css3 icon" />
+            <p>CSS</p>
+          </div>
+          <div>
+            <img
+              src={require("../images/icons8-javascript.svg")}
+              alt="javascript icon"
+            />
+            <p>JS</p>
+          </div>
+          <div>
+            <img
+              src={require("../images/react.png")}
+              alt="react icon"
+              style={{ height: "48px" }}
+            />
+            <p>React</p>
+          </div>
+          <div>
+            <img
+              src={require("../images/icons8-nodejs.svg")}
+              alt="node.js icon"
+            />
+            <p>Node.js</p>
+          </div>
+          <div>
+            <img src={require("../images/icons8-sql-48.png")} alt="SQL icon" />
+            <p>SQL</p>
+          </div>
+          <div>
+            <img
+              src={require("../images/icons8-python.svg")}
+              alt="python icon"
+            />
+            <p>Python</p>
+          </div>
+          <div>
+            <img src={require("../images/django.png")} alt="" />
+            <p>Django</p>
+          </div>
+          <div>
+            <img
+              src={require("../images/icons8-github.svg")}
+              alt="github icon"
+            />
+            <p>Git</p>
+          </div>
+          <div>
+            <img
+              src={require("../images/icons8-c-programming.svg")}
+              alt="C icon"
+            />
+            <p>C</p>
           </div>
         </div>
+        {/*         
         {this.state.isShowing === false ? null : (
           <SkillModal
             className="modal"
             show={this.state.isShowing}
             close={this.closeModalHandler}
           />
-        )}
+        )} */}
       </div>
     );
   }

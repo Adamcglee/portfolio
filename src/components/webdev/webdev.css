@@ -10,48 +10,33 @@
 .bio {
     padding: 0 20px;
     text-align: left;
-}
-
-.containerFooter {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;    
-    padding: 0 15px;
-    height: 55px;
-}
-
-.contactContainer {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-}
-
-.contactContainer a{
-    text-decoration: none;
-    color: #1F2833;
-}
-
-.icon {
-    max-width: 25px;
-    min-width: 20px;
-    margin: 0 2px
-}
-
-.contactFlex {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.contactFlex:hover {
-    cursor: pointer;
-    text-shadow: 1px 1px 2px #66FCF1, 0 0 25px #1F2833, 0 0 5px darkblue;
-}
-
-.iconinfo {
-    margin: 0 2px;
     font-size: 14px;
 }
+
+.breakdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 100px;
+}
+
+.breakdown li{
+    text-align: left;    
+}
+.breakdown p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.proficiencies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0;
+    width: 100%;
+    color: #66FCF1;
+  }
+  
+  .proficiencies img{
+    max-height: 40px;
+  }

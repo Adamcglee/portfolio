@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Flippy, { FrontSide, BackSide } from "react-flippy";
+import "./projectcard.css"
 
 class ProjectCard extends Component {
   constructor(props) {
@@ -57,15 +58,26 @@ class ProjectCard extends Component {
             </h4>
             <ul className="techstacklist">
               {this.props.techstack.map(tech => (
-                <li style={{ textAlign: "left" }}>{tech}</li>
+                <li>{tech}</li>
               ))}
             </ul>
           </div>
-          <a href={this.props.url} style={{ color: "#1f2833" }} target="_blank" rel="noopener noreferrer">
-            <h4 style={{ margin: "0 auto", fontWeight: "bold" }}>
-              Link to Project
-            </h4>
-          </a>
+          <div className="projectbuttons">
+            <a
+              href={this.props.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>Demo</button>
+            </a>
+            <a
+              href={this.props.giturl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button>Github Repo</button>
+            </a>
+          </div>
         </BackSide>
       </Flippy>
     );

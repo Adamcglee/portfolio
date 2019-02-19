@@ -9,30 +9,42 @@ class App extends Component {
         <div className="appIntro">
           <h1
             style={{
-              color: "aliceblue",
+              color: "#66FCF1",
               margin: "0 auto",
               fontSize: "65px"
             }}
           >
             Who is Adam Lee?
           </h1>
-          <div className="swipeinstuctions">
-            <div className="swipeicon">
-              <img src={require("./components/images/rotateicon.png")} alt="rotation icon"/>
-            </div>
-            <h3
-              style={{
-                color: "aliceblue"
-              }}
-            >
-              Swipe below to see my many sides...
-            </h3>
-            <div className="swipeicon">
-              <img src={require("./components/images/rotateicon.png")} alt="rotation icon"/>
+          <div className="containerFooter">
+            <div className="contactContainer">
+              <a href="mailto:adamcglee@gmail.com">
+                <div className="contactFlex">
+                  <i class="far fa-envelope" />
+                  <p className="iconinfo">adamcglee@gmail.com</p>
+                </div>
+              </a>
+              <a href="https://linkedin.com/in/adamcglee">
+                <div className="contactFlex">
+                  <i class="fab fa-linkedin" />
+                  <p className="iconinfo">adamcglee</p>
+                </div>
+              </a>
+              <a href="https://github.com/Adamcglee">
+                <div className="contactFlex">
+                  <i class="fab fa-github" />
+                  <p className="iconinfo">adamcglee</p>
+                </div>
+              </a>
+              <a href="https://resume.creddle.io/resume/cvxi7roju17">
+                <div className="contactFlex">
+                  <i class="far fa-file" />
+                  <p className="iconinfo">Resume</p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
-
         <Carousel3d />
       </div>
     );
