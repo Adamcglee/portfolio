@@ -39,8 +39,8 @@ class WebDev extends React.Component {
             I am a recent graduate of Lambda School's Full Stack Web Development
             program. The 8 month program was broken up into 3 sections:
             Frontend, Backend, and Computer Science. Labs was the last 5 weeks
-            where we on a project in a small group from spec to launch. Please
-            have a look at my projects below and feel free to reach out to me.
+            where we worked on a project in a small group of 4-5 students from wireframe 
+            to launch. Please have a look at my projects below and feel free to reach out to me.
             Thank you for stopping by!
           </p>
           <br />
