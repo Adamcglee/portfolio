@@ -14,7 +14,7 @@ class App extends Component {
               fontSize: "65px"
             }}
           >
-            Adam C G Lee
+            Adam C. G. Lee
           </h1>
           <div className="containerFooter">
             <div className="contactContainer">
