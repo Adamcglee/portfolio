@@ -19,7 +19,7 @@ class Projects extends Component {
           description="A music review site where people can come together and give ratings and reviews on their favorite or least favorite albums and tracks."
         />
         <ProjectCard
-          title="Lambda-MUD"
+          title="Dungeon-MUD"
           techstack={["React", "Django", "SQL/Postgres"]}
           url="https://adamcglee-lambda-mud.netlify.com"
           giturl="https://github.com/Adamcglee/LambdaMUD-Project"
