@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Carousel3d from "./components/carousel/carousel";
+import WebDev from "./components/webdev/webdev";
 
 class App extends Component {
   render() {
@@ -36,7 +37,10 @@ class App extends Component {
                   <p className="iconinfo">adamcglee</p>
                 </div>
               </a>
-              <a href="https://resume.creddle.io/resume/cvxi7roju17" target="_blank">
+              <a
+                href="https://resume.creddle.io/resume/cvxi7roju17"
+                target="_blank"
+              >
                 <div className="contactFlex">
                   <i class="far fa-file" />
                   <p className="iconinfo">Resume</p>
@@ -45,7 +49,10 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <Carousel3d />
+        <div>
+          <WebDev width={900} height={600} />
+        </div>
+        {/* <Carousel3d /> */}
       </div>
     );
   }
